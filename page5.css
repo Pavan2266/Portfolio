@@ -1,0 +1,46 @@
+.page5-1 {
+    font-size: 40px;
+    color: rgb(135, 249, 5);
+    padding-bottom: 40px;
+}
+
+.page5-2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.page5-3{
+    padding-bottom: 120px;
+}
+.resume {
+      padding: 12px 48px;
+      font-size: 16px;
+      font-weight: 600;
+      border: none;
+      border-radius: 9999px; /* fully rounded */
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+
+
+
+
+
+    .download-btn,.resume {
+      background-color: white;
+      color: black;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-top: 20px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .download-btn:hover {
+      transform: scale(1.05);
+    }

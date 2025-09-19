@@ -1,0 +1,138 @@
+.page2-3{
+    border-radius: 30%;
+}
+
+.page2-1 {
+  font-size: 68px;
+  font-weight: bold;
+  background: linear-gradient(to right, #3b82f6, #ec4899); /* blue to pink */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* for Firefox */
+  color: transparent;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+/* .page2-1 span {
+  position: relative;
+}
+
+.page2-1 span::before{
+  content: "Youtuber";
+  color: #ff7f50;
+  animation: words 20s infinite;
+}
+.page2-1   span::after{
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 0;
+  border-left: 2px solid #ff7f50;
+  animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+.page2-1 {
+  to{
+    border-left: 2px solid #ff7f5000;
+  }
+}
+@keyframes words {
+  0%,100%{
+    content: "youtuber";
+  }
+  21%,100%{
+    content: "youtuber";
+  }  
+  41%,100%{
+    content: "youtuber";
+  }  
+  61%,100%{
+    content: "youtuber";
+  }  
+  81%,100%{
+    content: "youtuber";
+  }
+}
+@ketframes typing {
+  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+    width: 0;
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+    width: calc(100% + 8px);
+  }
+} */
+
+
+
+.subtitle {
+      font-size: 20px;
+      margin-bottom: 40px;
+      color: #e5e7eb;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 12px 28px;
+      font-size: 16px;
+      font-weight: 600;
+      border: none;
+      border-radius: 9999px; /* fully rounded */
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-projects {
+      background: linear-gradient(to right, #f472b6, #ec4899); /* pink gradient */
+      color: white;
+    }
+
+    .btn-resume {
+      background-color: #fef3c7; /* light yellow */
+      color: #6b7280; /* soft gray text */
+    }
+
+    .btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 10px 20px rgba(65, 227, 239, 0.579);
+    }
+
+    .btn:active {
+      transform: scale(0.96);
+      
+    }
+
+
+
+
+.arrow-container {
+      position: absolute;
+      bottom: 40px;
+      padding-bottom: 40px;
+    }
+
+.down-arrow {
+      font-size: 38px;
+      animation: bounce 2s infinite;
+      color: white;
+      padding-left: 750px;
+      
+    }
+
+@keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(10px);
+      }
+    }

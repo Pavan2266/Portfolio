@@ -1,0 +1,53 @@
+.page3-1{
+    padding-top: 280px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: rgb(135, 249, 13);
+}
+
+.page3-2{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  color: #f7f7f8;
+  font-size: 25px;
+  margin-bottom: 40px;
+  text-align: justify;
+  margin: 0;
+}
+
+.page3-3{
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  border-radius: 30%;
+  font-size: 90px;
+  margin: 0;
+}
+
+.button {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-size: 50px; 
+      gap: 100px;
+}
+
+
+
+/* .html,.css,.Python,.JavaScript {
+      padding: 12px 48px;
+      font-size: 16px;
+      font-weight: 600;
+      border: none;
+      border-radius: 9999px; 
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 8px rgba(2, 201, 251, 0.377);
+      background: linear-gradient(to right, #00ff22, #00ff22); 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    } */
